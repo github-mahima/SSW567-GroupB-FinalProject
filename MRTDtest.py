@@ -752,5 +752,41 @@ class TestFinalRequirementChecks(unittest.TestCase):
             decodeMRZ(line1, invalid_line2)
 
 
+class TestAdditionalVerification(unittest.TestCase):
+
+    def test_crc16_exact_filler_checksum(self):
+        # Verify the exact CRC-16 result for MRZ filler characters.
+        from MRTD import calculateCRC16
+
+        self.assertEqual(calculateCRC16("ABC<<<<"), 0xA4C6)
+
+    def test_encode_decode_round_trip(self):
+        # Verify that encoded passport information can be
+        # decoded without changing important field values.
+        from MRTD import encodeMRZ, decodeMRZ
+
+        record = {
+            "document_type": "P<",
+            "issuing_country": "USA",
+            "holder_name": "SMITH, JANE",
+            "passport_number": "B98765432",
+            "nationality": "CAN",
+            "birth_date": "020215",
+            "sex": "F",
+            "expiration_date": "300630",
+            "personal_number": "123456789"
+        }
+
+        line1, line2 = encodeMRZ(record)
+        decoded = decodeMRZ(line1, line2)
+
+        self.assertEqual(len(line1), 44)
+        self.assertEqual(len(line2), 44)
+        self.assertEqual(decoded["holder_name"], "SMITH, JANE")
+        self.assertEqual(decoded["passport_number"], "B98765432")
+        self.assertEqual(decoded["nationality"], "CAN")
+        self.assertEqual(decoded["birth_date"], "020215")
+        self.assertEqual(decoded["personal_number"], "123456789")
+
 if __name__ == "__main__":
     unittest.main()
