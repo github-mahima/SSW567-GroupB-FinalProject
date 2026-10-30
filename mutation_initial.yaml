@@ -1,0 +1,5553 @@
+coverage:
+  all_nodes: 0
+  covered_nodes: 0
+mutation_score: 74.54954954954955
+mutations:
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '479330' != '3'\n- 479330\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: &id001 !!python/module:MRTD ''
+  mutations:
+  - lineno: 60
+    operator: AOR
+  number: 1
+  status: killed
+  tests_run: 1
+  time: 0.0016591548919677734
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 69
+    operator: AOR
+  number: 2
+  status: survived
+  tests_run: 46
+  time: 0.005520820617675781
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 76
+    operator: AOR
+  number: 3
+  status: incompetent
+  tests_run: 43
+  time: 0.009167909622192383
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: AOR
+  number: 4
+  status: survived
+  tests_run: 46
+  time: 0.0072784423828125
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: AOR
+  number: 5
+  status: survived
+  tests_run: 46
+  time: 0.008424758911132812
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 82
+    operator: AOR
+  number: 6
+  status: incompetent
+  tests_run: 45
+  time: 0.008287906646728516
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 138
+    operator: AOR
+  number: 7
+  status: incompetent
+  tests_run: 45
+  time: 0.005306720733642578
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 166
+    operator: AOR
+  number: 8
+  status: incompetent
+  tests_run: 45
+  time: 0.005580902099609375
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 169
+    operator: AOR
+  number: 9
+  status: survived
+  tests_run: 46
+  time: 0.005861759185791016
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 194
+    operator: AOR
+  number: 10
+  status: incompetent
+  tests_run: 27
+  time: 0.004571199417114258
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 194
+    operator: AOR
+  number: 11
+  status: incompetent
+  tests_run: 27
+  time: 0.00416254997253418
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: AOR
+  number: 12
+  status: survived
+  tests_run: 46
+  time: 0.0051538944244384766
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 245
+    operator: AOR
+  number: 13
+  status: incompetent
+  tests_run: 30
+  time: 0.0036427974700927734
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 245
+    operator: AOR
+  number: 14
+  status: incompetent
+  tests_run: 30
+  time: 0.0063397884368896484
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 249
+    operator: AOR
+  number: 15
+  status: incompetent
+  tests_run: 30
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 251
+    operator: AOR
+  number: 16
+  status: incompetent
+  tests_run: 30
+  time: 0.00436711311340332
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 252
+    operator: AOR
+  number: 17
+  status: incompetent
+  tests_run: 30
+  time: 0.004879474639892578
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 253
+    operator: AOR
+  number: 18
+  status: incompetent
+  tests_run: 30
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 254
+    operator: AOR
+  number: 19
+  status: incompetent
+  tests_run: 30
+  time: 0.00819849967956543
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 255
+    operator: AOR
+  number: 20
+  status: incompetent
+  tests_run: 30
+  time: 0.0055751800537109375
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 256
+    operator: AOR
+  number: 21
+  status: incompetent
+  tests_run: 30
+  time: 0.009644269943237305
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 257
+    operator: AOR
+  number: 22
+  status: incompetent
+  tests_run: 30
+  time: 0.007387876510620117
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 258
+    operator: AOR
+  number: 23
+  status: incompetent
+  tests_run: 30
+  time: 0.010533332824707031
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 259
+    operator: AOR
+  number: 24
+  status: incompetent
+  tests_run: 30
+  time: 0.006352901458740234
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 38
+    operator: COD
+  number: 25
+  status: incompetent
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 68
+    operator: COD
+  number: 26
+  status: killed
+  tests_run: 15
+  time: 0.0010080337524414062
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 95, in decodeMRZ\nValueError: MRZ lines must\
+    \ be strings\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 94
+    operator: COD
+  number: 27
+  status: killed
+  tests_run: 15
+  time: 0.002009153366088867
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 95, in decodeMRZ\nValueError: MRZ lines must\
+    \ be strings\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 94
+    operator: COD
+  number: 28
+  status: killed
+  tests_run: 15
+  time: 0.002935647964477539
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 106, in decodeMRZ\nValueError: MRZ line 1\
+    \ contains invalid characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 105
+    operator: COD
+  number: 29
+  status: killed
+  tests_run: 15
+  time: 0.0032196044921875
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 109, in decodeMRZ\nValueError: MRZ line 2\
+    \ contains invalid characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 108
+    operator: COD
+  number: 30
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 138, in decodeMRZ\nValueError: passport_check_digit:\
+    \ must be a digit\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 137
+    operator: COD
+  number: 31
+  status: killed
+  tests_run: 15
+  time: 0.005581855773925781
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 156, in encodeMRZ\nValueError: Travel document data must\
+    \ be a dictionary\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 155
+    operator: COD
+  number: 32
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 165
+    operator: COD
+  number: 33
+  status: killed
+  tests_run: 27
+  time: 0.0042912960052490234
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 165
+    operator: COD
+  number: 34
+  status: killed
+  tests_run: 27
+  time: 0.003016948699951172
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 169, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 168
+    operator: COD
+  number: 35
+  status: killed
+  tests_run: 27
+  time: 0.002660989761352539
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 193, in encodeMRZ\nValueError: Invalid holder_name format\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 192
+    operator: COD
+  number: 36
+  status: killed
+  tests_run: 27
+  time: 0.0010373592376708984
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 193, in encodeMRZ\nValueError: Invalid holder_name format\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 192
+    operator: COD
+  number: 37
+  status: killed
+  tests_run: 27
+  time: 0.006791830062866211
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: COD
+  number: 38
+  status: survived
+  tests_run: 46
+  time: 0.005698442459106445
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 210, in encodeMRZ\nValueError: Invalid issuing_country\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 209
+    operator: COD
+  number: 39
+  status: killed
+  tests_run: 27
+  time: 0.005867958068847656
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 215
+    operator: COD
+  number: 40
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 219, in encodeMRZ\nValueError: holder_name must separate\
+    \ names with <<\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 218
+    operator: COD
+  number: 41
+  status: killed
+  tests_run: 27
+  time: 0.002615690231323242
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 222, in encodeMRZ\nValueError: Invalid passport_number\
+    \ length\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 221
+    operator: COD
+  number: 42
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 225, in encodeMRZ\nValueError: Invalid passport_number\
+    \ characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 224
+    operator: COD
+  number: 43
+  status: killed
+  tests_run: 27
+  time: 0.007982254028320312
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 228, in encodeMRZ\nValueError: Invalid sex\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: COD
+  number: 44
+  status: killed
+  tests_run: 27
+  time: 0.00600743293762207
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 234, in encodeMRZ\nValueError: Invalid personal_number\
+    \ characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 233
+    operator: COD
+  number: 45
+  status: killed
+  tests_run: 27
+  time: 0.003108501434326172
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 38
+    operator: COI
+  number: 46
+  status: incompetent
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '5' != '3'\n- 5\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 47
+    operator: COI
+  number: 47
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 68
+    operator: COI
+  number: 48
+  status: killed
+  tests_run: 15
+  time: 0.007529258728027344
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 76, in validateMRZDate\nValueError: birth_date: invalid month\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: COI
+  number: 49
+  status: killed
+  tests_run: 15
+  time: 0.002679586410522461
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 82, in validateMRZDate\nValueError: birth_date: invalid day\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: COI
+  number: 50
+  status: killed
+  tests_run: 15
+  time: 0.0070765018463134766
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 95, in decodeMRZ\nValueError: MRZ lines must\
+    \ be strings\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 94
+    operator: COI
+  number: 51
+  status: killed
+  tests_run: 15
+  time: 0.008293390274047852
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 98, in decodeMRZ\nValueError: MRZ line 1\
+    \ must contain 44 characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 97
+    operator: COI
+  number: 52
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 101, in decodeMRZ\nValueError: MRZ line 2\
+    \ must contain 44 characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 100
+    operator: COI
+  number: 53
+  status: killed
+  tests_run: 15
+  time: 0.0033080577850341797
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 106, in decodeMRZ\nValueError: MRZ line 1\
+    \ contains invalid characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 105
+    operator: COI
+  number: 54
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 109, in decodeMRZ\nValueError: MRZ line 2\
+    \ contains invalid characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 108
+    operator: COI
+  number: 55
+  status: killed
+  tests_run: 15
+  time: 0.007718324661254883
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 112, in decodeMRZ\nValueError: MRZ line 2\
+    \ position 43 must be a filler\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 111
+    operator: COI
+  number: 56
+  status: killed
+  tests_run: 15
+  time: 0.00561213493347168
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 138, in decodeMRZ\nValueError: passport_check_digit:\
+    \ must be a digit\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 137
+    operator: COI
+  number: 57
+  status: killed
+  tests_run: 15
+  time: 0.005116701126098633
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 156, in encodeMRZ\nValueError: Travel document data must\
+    \ be a dictionary\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 152
+    operator: COI
+  number: 58
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 156, in encodeMRZ\nValueError: Travel document data must\
+    \ be a dictionary\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 155
+    operator: COI
+  number: 59
+  status: killed
+  tests_run: 27
+  time: 0.001291036605834961
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 165
+    operator: COI
+  number: 60
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 169, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 168
+    operator: COI
+  number: 61
+  status: killed
+  tests_run: 27
+  time: 0.005216360092163086
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: COI
+  number: 62
+  status: killed
+  tests_run: 27
+  time: 0.013104438781738281
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: COI
+  number: 63
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 189, in encodeMRZ\nValueError: Invalid holder_name format\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 188
+    operator: COI
+  number: 64
+  status: killed
+  tests_run: 27
+  time: 0.009995698928833008
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 193, in encodeMRZ\nValueError: Invalid holder_name format\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 192
+    operator: COI
+  number: 65
+  status: killed
+  tests_run: 27
+  time: 0.0012600421905517578
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 200, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: COI
+  number: 66
+  status: killed
+  tests_run: 27
+  time: 0.011935234069824219
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 203, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: COI
+  number: 67
+  status: killed
+  tests_run: 27
+  time: 0.006162166595458984
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 210, in encodeMRZ\nValueError: Invalid issuing_country\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 209
+    operator: COI
+  number: 68
+  status: killed
+  tests_run: 27
+  time: 0.004838466644287109
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 213, in encodeMRZ\nValueError: holder_name exceeds 39 characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 212
+    operator: COI
+  number: 69
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 215
+    operator: COI
+  number: 70
+  status: killed
+  tests_run: 27
+  time: 0.002506732940673828
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 219, in encodeMRZ\nValueError: holder_name must separate\
+    \ names with <<\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 218
+    operator: COI
+  number: 71
+  status: killed
+  tests_run: 27
+  time: 0.0029447078704833984
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 222, in encodeMRZ\nValueError: Invalid passport_number\
+    \ length\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 221
+    operator: COI
+  number: 72
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 225, in encodeMRZ\nValueError: Invalid passport_number\
+    \ characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 224
+    operator: COI
+  number: 73
+  status: killed
+  tests_run: 27
+  time: 0.016811609268188477
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 228, in encodeMRZ\nValueError: Invalid sex\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: COI
+  number: 74
+  status: killed
+  tests_run: 27
+  time: 0.013973712921142578
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 231, in encodeMRZ\nValueError: personal_number exceeds\
+    \ 14 characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 230
+    operator: COI
+  number: 75
+  status: killed
+  tests_run: 27
+  time: 0.014011859893798828
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 234, in encodeMRZ\nValueError: Invalid personal_number\
+    \ characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 233
+    operator: COI
+  number: 76
+  status: killed
+  tests_run: 27
+  time: 0.013753652572631836
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 3 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 295
+    operator: COI
+  number: 77
+  status: killed
+  tests_run: 38
+  time: 0.007865428924560547
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 0 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 303
+    operator: COI
+  number: 78
+  status: killed
+  tests_run: 38
+  time: 0.0039250850677490234
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 39
+    operator: CRP
+  number: 79
+  status: survived
+  tests_run: 46
+  time: 0.02699565887451172
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 39
+    operator: CRP
+  number: 80
+  status: survived
+  tests_run: 46
+  time: 0.011736392974853516
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '6' != '3'\n- 6\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 41
+    operator: CRP
+  number: 81
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\n  File \"MRTD\", line 60, in calculateCheckDigit\n  File\
+    \ \"MRTD\", line 43, in calculateCRC16\nLookupError: unknown encoding: mutpy\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 43
+    operator: CRP
+  number: 82
+  status: killed
+  tests_run: 1
+  time: 0.003794431686401367
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\n  File \"MRTD\", line 60, in calculateCheckDigit\n  File\
+    \ \"MRTD\", line 43, in calculateCRC16\nLookupError: unknown encoding: \n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 43
+    operator: CRP
+  number: 83
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '4' != '3'\n- 4\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 46
+    operator: CRP
+  number: 84
+  status: killed
+  tests_run: 1
+  time: 0.0020093917846679688
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '2' != '3'\n- 2\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 47
+    operator: CRP
+  number: 85
+  status: killed
+  tests_run: 1
+  time: 0.001983165740966797
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '5' != '3'\n- 5\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 48
+    operator: CRP
+  number: 86
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 68, in test_crc16_different_inputs\n    self.assertEqual(calculateCRC16(\"\
+    A\"), 0x30C0)\nAssertionError: 4160 != 12480\n"
+  killer: test_crc16_different_inputs (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 48
+    operator: CRP
+  number: 87
+  status: killed
+  tests_run: 3
+  time: 0.00994420051574707
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '5' != '3'\n- 5\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 50
+    operator: CRP
+  number: 88
+  status: killed
+  tests_run: 1
+  time: 0.0037670135498046875
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '0' != '3'\n- 0\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 52
+    operator: CRP
+  number: 89
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '6' != '3'\n- 6\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 60
+    operator: CRP
+  number: 90
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 68
+    operator: CRP
+  number: 91
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 69
+    operator: CRP
+  number: 92
+  status: survived
+  tests_run: 46
+  time: 0.005358219146728516
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 69
+    operator: CRP
+  number: 93
+  status: survived
+  tests_run: 46
+  time: 0.006657838821411133
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 71
+    operator: CRP
+  number: 94
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 201, in test_decode_invalid_birth_month\n    decodeMRZ(self.line1, invalid_line2)\n\
+    AssertionError: ValueError not raised\n"
+  killer: test_decode_invalid_birth_month (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 72
+    operator: CRP
+  number: 95
+  status: killed
+  tests_run: 16
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 76, in validateMRZDate\nValueError: birth_date: invalid month\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 72
+    operator: CRP
+  number: 96
+  status: killed
+  tests_run: 15
+  time: 0.0067522525787353516
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\n  File \"MRTD\", line\
+    \ 82, in validateMRZDate\nValueError: expiration_date: invalid day\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 73
+    operator: CRP
+  number: 97
+  status: killed
+  tests_run: 15
+  time: 0.0020122528076171875
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 73
+    operator: CRP
+  number: 98
+  status: survived
+  tests_run: 46
+  time: 0.0020101070404052734
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: CRP
+  number: 99
+  status: survived
+  tests_run: 46
+  time: 0.005088090896606445
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 201, in test_decode_invalid_birth_month\n    decodeMRZ(self.line1, invalid_line2)\n\
+    \  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line 81, in validateMRZDate\n\
+    IndexError: list index out of range\n"
+  killer: test_decode_invalid_birth_month (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: CRP
+  number: 100
+  status: killed
+  tests_run: 16
+  time: 0.0
+- exception_traceback: "ValueError: birth_datemutpy\n\nDuring handling of the above\
+    \ exception, another exception occurred:\n\nTraceback (most recent call last):\n\
+    \  File \".\\MRTDtest.py\", line 201, in test_decode_invalid_birth_month\n   \
+    \ decodeMRZ(self.line1, invalid_line2)\nAssertionError: \"invalid month\" does\
+    \ not match \"birth_datemutpy\"\n"
+  killer: test_decode_invalid_birth_month (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 76
+    operator: CRP
+  number: 101
+  status: killed
+  tests_run: 16
+  time: 0.0
+- exception_traceback: "ValueError: birth_date\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 201, in test_decode_invalid_birth_month\n    decodeMRZ(self.line1,\
+    \ invalid_line2)\nAssertionError: \"invalid month\" does not match \"birth_date\"\
+    \n"
+  killer: test_decode_invalid_birth_month (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 76
+    operator: CRP
+  number: 102
+  status: killed
+  tests_run: 16
+  time: 0.0013380050659179688
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: CRP
+  number: 103
+  status: survived
+  tests_run: 46
+  time: 0.0039033889770507812
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: CRP
+  number: 104
+  status: survived
+  tests_run: 46
+  time: 0.004952907562255859
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: CRP
+  number: 105
+  status: survived
+  tests_run: 46
+  time: 0.008321285247802734
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: CRP
+  number: 106
+  status: survived
+  tests_run: 46
+  time: 0.005906820297241211
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: CRP
+  number: 107
+  status: survived
+  tests_run: 46
+  time: 0.0059452056884765625
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 108
+  status: survived
+  tests_run: 46
+  time: 0.006098508834838867
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 109
+  status: survived
+  tests_run: 46
+  time: 0.00816202163696289
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 110
+  status: survived
+  tests_run: 46
+  time: 0.004880428314208984
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 111
+  status: survived
+  tests_run: 46
+  time: 0.004613161087036133
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 112
+  status: survived
+  tests_run: 46
+  time: 0.0030515193939208984
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 113
+  status: survived
+  tests_run: 46
+  time: 0.003918647766113281
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 114
+  status: survived
+  tests_run: 46
+  time: 0.010354995727539062
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 115
+  status: survived
+  tests_run: 46
+  time: 0.006700754165649414
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 116
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 79
+    operator: CRP
+  number: 117
+  status: survived
+  tests_run: 46
+  time: 0.006256103515625
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: CRP
+  number: 118
+  status: survived
+  tests_run: 46
+  time: 0.007013559341430664
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: CRP
+  number: 119
+  status: survived
+  tests_run: 46
+  time: 0.0020101070404052734
+- exception_traceback: "ValueError: expiration_datemutpy\n\nDuring handling of the\
+    \ above exception, another exception occurred:\n\nTraceback (most recent call\
+    \ last):\n  File \".\\MRTDtest.py\", line 209, in test_decode_invalid_expiration_day\n\
+    \    decodeMRZ(self.line1, invalid_line2)\nAssertionError: \"invalid day\" does\
+    \ not match \"expiration_datemutpy\"\n"
+  killer: test_decode_invalid_expiration_day (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 82
+    operator: CRP
+  number: 120
+  status: killed
+  tests_run: 19
+  time: 0.0042226314544677734
+- exception_traceback: "ValueError: expiration_date\n\nDuring handling of the above\
+    \ exception, another exception occurred:\n\nTraceback (most recent call last):\n\
+    \  File \".\\MRTDtest.py\", line 209, in test_decode_invalid_expiration_day\n\
+    \    decodeMRZ(self.line1, invalid_line2)\nAssertionError: \"invalid day\" does\
+    \ not match \"expiration_date\"\n"
+  killer: test_decode_invalid_expiration_day (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 82
+    operator: CRP
+  number: 121
+  status: killed
+  tests_run: 19
+  time: 0.0
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 215, in test_decode_non_string_input\n    decodeMRZ(None,\
+    \ self.line2)\nAssertionError: \"must be strings\" does not match \"mutpy\"\n"
+  killer: test_decode_non_string_input (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 95
+    operator: CRP
+  number: 122
+  status: killed
+  tests_run: 22
+  time: 0.004019498825073242
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 215, in test_decode_non_string_input\n    decodeMRZ(None, self.line2)\n\
+    AssertionError: \"must be strings\" does not match \"\"\n"
+  killer: test_decode_non_string_input (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 95
+    operator: CRP
+  number: 123
+  status: killed
+  tests_run: 22
+  time: 0.003536701202392578
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 98, in decodeMRZ\nValueError: MRZ line 1\
+    \ must contain 44 characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 97
+    operator: CRP
+  number: 124
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 163, in test_decode_short_line1\n    decodeMRZ(self.line1[:-1],\
+    \ self.line2)\nAssertionError: \"line 1\" does not match \"mutpy\"\n"
+  killer: test_decode_short_line1 (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 98
+    operator: CRP
+  number: 125
+  status: killed
+  tests_run: 24
+  time: 0.0010082721710205078
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 163, in test_decode_short_line1\n    decodeMRZ(self.line1[:-1], self.line2)\n\
+    AssertionError: \"line 1\" does not match \"\"\n"
+  killer: test_decode_short_line1 (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 98
+    operator: CRP
+  number: 126
+  status: killed
+  tests_run: 24
+  time: 0.002930879592895508
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 101, in decodeMRZ\nValueError: MRZ line 2\
+    \ must contain 44 characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 100
+    operator: CRP
+  number: 127
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 169, in test_decode_short_line2\n    decodeMRZ(self.line1,\
+    \ self.line2[:-1])\nAssertionError: \"line 2\" does not match \"mutpy\"\n"
+  killer: test_decode_short_line2 (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 101
+    operator: CRP
+  number: 128
+  status: killed
+  tests_run: 25
+  time: 0.008154630661010742
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 169, in test_decode_short_line2\n    decodeMRZ(self.line1, self.line2[:-1])\n\
+    AssertionError: \"line 2\" does not match \"\"\n"
+  killer: test_decode_short_line2 (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 101
+    operator: CRP
+  number: 129
+  status: killed
+  tests_run: 25
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 106, in decodeMRZ\nValueError: MRZ line 1\
+    \ contains invalid characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 103
+    operator: CRP
+  number: 130
+  status: killed
+  tests_run: 15
+  time: 0.0026454925537109375
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 106, in decodeMRZ\nValueError: MRZ line 1\
+    \ contains invalid characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 103
+    operator: CRP
+  number: 131
+  status: killed
+  tests_run: 15
+  time: 0.005099773406982422
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 177, in test_decode_invalid_character\n    decodeMRZ(invalid_line1,\
+    \ self.line2)\nAssertionError: \"line 1\" does not match \"mutpy\"\n"
+  killer: test_decode_invalid_character (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 106
+    operator: CRP
+  number: 132
+  status: killed
+  tests_run: 17
+  time: 0.0
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 177, in test_decode_invalid_character\n    decodeMRZ(invalid_line1, self.line2)\n\
+    AssertionError: \"line 1\" does not match \"\"\n"
+  killer: test_decode_invalid_character (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 106
+    operator: CRP
+  number: 133
+  status: killed
+  tests_run: 17
+  time: 0.00835728645324707
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 185, in test_decode_lowercase_character\n    decodeMRZ(self.line1,\
+    \ invalid_line2)\nAssertionError: \"line 2\" does not match \"mutpy\"\n"
+  killer: test_decode_lowercase_character (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 109
+    operator: CRP
+  number: 134
+  status: killed
+  tests_run: 21
+  time: 0.0040247440338134766
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 185, in test_decode_lowercase_character\n    decodeMRZ(self.line1, invalid_line2)\n\
+    AssertionError: \"line 2\" does not match \"\"\n"
+  killer: test_decode_lowercase_character (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 109
+    operator: CRP
+  number: 135
+  status: killed
+  tests_run: 21
+  time: 0.00402522087097168
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 112, in decodeMRZ\nValueError: MRZ line 2\
+    \ position 43 must be a filler\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 111
+    operator: CRP
+  number: 136
+  status: killed
+  tests_run: 15
+  time: 0.012228250503540039
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 112, in decodeMRZ\nValueError: MRZ line 2\
+    \ position 43 must be a filler\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 111
+    operator: CRP
+  number: 137
+  status: killed
+  tests_run: 15
+  time: 0.0170896053314209
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 112, in decodeMRZ\nValueError: MRZ line 2\
+    \ position 43 must be a filler\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 111
+    operator: CRP
+  number: 138
+  status: killed
+  tests_run: 15
+  time: 0.010023832321166992
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 193, in test_decode_invalid_filler\n    decodeMRZ(self.line1,\
+    \ invalid_line2)\nAssertionError: \"position 43\" does not match \"mutpy\"\n"
+  killer: test_decode_invalid_filler (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 112
+    operator: CRP
+  number: 139
+  status: killed
+  tests_run: 20
+  time: 0.002460002899169922
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 193, in test_decode_invalid_filler\n    decodeMRZ(self.line1, invalid_line2)\n\
+    AssertionError: \"position 43\" does not match \"\"\n"
+  killer: test_decode_invalid_filler (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 112
+    operator: CRP
+  number: 140
+  status: killed
+  tests_run: 20
+  time: 0.007421016693115234
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 139, in test_decode_valid_mrz\n    self.assertEqual(result[\"document_type\"\
+    ], \"P<\")\nKeyError: 'document_type'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 115
+    operator: CRP
+  number: 141
+  status: killed
+  tests_run: 26
+  time: 0.00452113151550293
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 139, in test_decode_valid_mrz\n    self.assertEqual(result[\"document_type\"\
+    ], \"P<\")\nKeyError: 'document_type'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 115
+    operator: CRP
+  number: 142
+  status: killed
+  tests_run: 26
+  time: 0.0011353492736816406
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 140, in test_decode_valid_mrz\n    self.assertEqual(result[\"issuing_country\"\
+    ], \"USA\")\nKeyError: 'issuing_country'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 116
+    operator: CRP
+  number: 143
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 140, in test_decode_valid_mrz\n    self.assertEqual(result[\"issuing_country\"\
+    ], \"USA\")\nKeyError: 'issuing_country'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 116
+    operator: CRP
+  number: 144
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nKeyError: 'holder_name'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 145
+  status: killed
+  tests_run: 26
+  time: 0.014508962631225586
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nKeyError: 'holder_name'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 146
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 142, in test_decode_valid_mrz\n    self.assertEqual(result[\"passport_number\"\
+    ], \"A12345678\")\nKeyError: 'passport_number'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: CRP
+  number: 147
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 142, in test_decode_valid_mrz\n    self.assertEqual(result[\"passport_number\"\
+    ], \"A12345678\")\nKeyError: 'passport_number'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: CRP
+  number: 148
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'passport_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 119
+    operator: CRP
+  number: 149
+  status: killed
+  tests_run: 15
+  time: 0.015590190887451172
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'passport_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 119
+    operator: CRP
+  number: 150
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 143, in test_decode_valid_mrz\n    self.assertEqual(result[\"nationality\"\
+    ], \"USA\")\nKeyError: 'nationality'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 120
+    operator: CRP
+  number: 151
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 143, in test_decode_valid_mrz\n    self.assertEqual(result[\"nationality\"\
+    ], \"USA\")\nKeyError: 'nationality'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 120
+    operator: CRP
+  number: 152
+  status: killed
+  tests_run: 26
+  time: 0.01284337043762207
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\nKeyError: 'birth_date'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 121
+    operator: CRP
+  number: 153
+  status: killed
+  tests_run: 15
+  time: 0.003038167953491211
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\nKeyError: 'birth_date'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 121
+    operator: CRP
+  number: 154
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'birth_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 122
+    operator: CRP
+  number: 155
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'birth_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 122
+    operator: CRP
+  number: 156
+  status: killed
+  tests_run: 15
+  time: 0.011857032775878906
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 145, in test_decode_valid_mrz\n    self.assertEqual(result[\"sex\"], \"\
+    F\")\nKeyError: 'sex'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 123
+    operator: CRP
+  number: 157
+  status: killed
+  tests_run: 26
+  time: 0.005225419998168945
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 145, in test_decode_valid_mrz\n    self.assertEqual(result[\"sex\"], \"\
+    F\")\nKeyError: 'sex'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 123
+    operator: CRP
+  number: 158
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\nKeyError: 'expiration_date'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 124
+    operator: CRP
+  number: 159
+  status: killed
+  tests_run: 15
+  time: 0.008719205856323242
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\nKeyError: 'expiration_date'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 124
+    operator: CRP
+  number: 160
+  status: killed
+  tests_run: 15
+  time: 0.0005118846893310547
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'expiration_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 125
+    operator: CRP
+  number: 161
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'expiration_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 125
+    operator: CRP
+  number: 162
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 147, in test_decode_valid_mrz\n    self.assertEqual(result[\"personal_number\"\
+    ], \"12345678901234\")\nKeyError: 'personal_number'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: CRP
+  number: 163
+  status: killed
+  tests_run: 26
+  time: 0.010354995727539062
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 147, in test_decode_valid_mrz\n    self.assertEqual(result[\"personal_number\"\
+    ], \"12345678901234\")\nKeyError: 'personal_number'\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: CRP
+  number: 164
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'personal_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 127
+    operator: CRP
+  number: 165
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'personal_check_digit'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 127
+    operator: CRP
+  number: 166
+  status: killed
+  tests_run: 15
+  time: 0.008472204208374023
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 230, in test_decode_preserves_raw_lines\n    self.assertEqual(result[\"\
+    raw_line1\"], self.line1)\nKeyError: 'raw_line1'\n"
+  killer: test_decode_preserves_raw_lines (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 128
+    operator: CRP
+  number: 167
+  status: killed
+  tests_run: 23
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 230, in test_decode_preserves_raw_lines\n    self.assertEqual(result[\"\
+    raw_line1\"], self.line1)\nKeyError: 'raw_line1'\n"
+  killer: test_decode_preserves_raw_lines (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 128
+    operator: CRP
+  number: 168
+  status: killed
+  tests_run: 23
+  time: 0.006867647171020508
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 231, in test_decode_preserves_raw_lines\n    self.assertEqual(result[\"\
+    raw_line2\"], self.line2)\nKeyError: 'raw_line2'\n"
+  killer: test_decode_preserves_raw_lines (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 129
+    operator: CRP
+  number: 169
+  status: killed
+  tests_run: 23
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 231, in test_decode_preserves_raw_lines\n    self.assertEqual(result[\"\
+    raw_line2\"], self.line2)\nKeyError: 'raw_line2'\n"
+  killer: test_decode_preserves_raw_lines (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 129
+    operator: CRP
+  number: 170
+  status: killed
+  tests_run: 23
+  time: 0.00905919075012207
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 139, in test_decode_valid_mrz\n    self.assertEqual(result[\"document_type\"\
+    ], \"P<\")\nAssertionError: '<' != 'P<'\n- <\n+ P<\n? +\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 115
+    operator: CRP
+  number: 171
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 139, in test_decode_valid_mrz\n    self.assertEqual(result[\"document_type\"\
+    ], \"P<\")\nAssertionError: 'P<U' != 'P<'\n- P<U\n?   -\n+ P<\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 115
+    operator: CRP
+  number: 172
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 140, in test_decode_valid_mrz\n    self.assertEqual(result[\"issuing_country\"\
+    ], \"USA\")\nAssertionError: 'SA' != 'USA'\n- SA\n+ USA\n? +\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 116
+    operator: CRP
+  number: 173
+  status: killed
+  tests_run: 26
+  time: 0.008338451385498047
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 140, in test_decode_valid_mrz\n    self.assertEqual(result[\"issuing_country\"\
+    ], \"USA\")\nAssertionError: 'USAJ' != 'USA'\n- USAJ\n?    -\n+ USA\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 116
+    operator: CRP
+  number: 174
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'AIN, MAHIMA' != 'JAIN, MAHIMA'\n- AIN,\
+    \ MAHIMA\n+ JAIN, MAHIMA\n? +\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 175
+  status: killed
+  tests_run: 26
+  time: 0.0060575008392333984
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 176
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'JAIN, MAHIMA, , , , , , , , , , , , , \
+    \ ' != 'JAIN, MAHIMA'\n- JAIN, MAHIMA, , , , , , , , , , , , ,  \n+ JAIN, MAHIMA\n\
+    \n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 177
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'JAIN, MAHIMA, , , , , , , , , , , , , \
+    \ ' != 'JAIN, MAHIMA'\n- JAIN, MAHIMA, , , , , , , , , , , , ,  \n+ JAIN, MAHIMA\n\
+    \n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 178
+  status: killed
+  tests_run: 26
+  time: 0.01715397834777832
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'JAIN  MAHIMA' != 'JAIN, MAHIMA'\n- JAIN\
+    \  MAHIMA\n?     ^\n+ JAIN, MAHIMA\n?     ^\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 179
+  status: killed
+  tests_run: 26
+  time: 0.0032541751861572266
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: ', J, A, I, N,  ,  , M, A, H, I, M, A, '\
+    \ != 'JAIN, MAHIMA'\n- , J, A, I, N,  ,  , M, A, H, I, M, A, \n+ JAIN, MAHIMA\n\
+    \n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 180
+  status: killed
+  tests_run: 26
+  time: 0.0031785964965820312
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'JAINmutpyMAHIMA' != 'JAIN, MAHIMA'\n- JAINmutpyMAHIMA\n\
+    ?     ^^^^^\n+ JAIN, MAHIMA\n?     ^^\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 181
+  status: killed
+  tests_run: 26
+  time: 0.004496097564697266
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'JAINMAHIMA' != 'JAIN, MAHIMA'\n- JAINMAHIMA\n\
+    + JAIN, MAHIMA\n?     ++\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 182
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 183
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: ' J A I N ,   M A H I M A ' != 'JAIN, MAHIMA'\n\
+    -  J A I N ,   M A H I M A \n+ JAIN, MAHIMA\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 184
+  status: killed
+  tests_run: 26
+  time: 0.01507115364074707
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 185
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: CRP
+  number: 186
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 142, in test_decode_valid_mrz\n    self.assertEqual(result[\"passport_number\"\
+    ], \"A12345678\")\nAssertionError: '12345678' != 'A12345678'\n- 12345678\n+ A12345678\n\
+    ? +\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: CRP
+  number: 187
+  status: killed
+  tests_run: 26
+  time: 0.0036835670471191406
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 142, in test_decode_valid_mrz\n    self.assertEqual(result[\"passport_number\"\
+    ], \"A12345678\")\nAssertionError: 'A123456780' != 'A12345678'\n- A123456780\n\
+    ?          -\n+ A12345678\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: CRP
+  number: 188
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: CRP
+  number: 189
+  status: survived
+  tests_run: 46
+  time: 0.012556314468383789
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: CRP
+  number: 190
+  status: survived
+  tests_run: 46
+  time: 0.004169464111328125
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 138, in decodeMRZ\nValueError: passport_check_digit:\
+    \ must be a digit\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 119
+    operator: CRP
+  number: 191
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 143, in test_decode_valid_mrz\n    self.assertEqual(result[\"nationality\"\
+    ], \"USA\")\nAssertionError: 'SA' != 'USA'\n- SA\n+ USA\n? +\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 120
+    operator: CRP
+  number: 192
+  status: killed
+  tests_run: 26
+  time: 0.01190042495727539
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 143, in test_decode_valid_mrz\n    self.assertEqual(result[\"nationality\"\
+    ], \"USA\")\nAssertionError: 'USA9' != 'USA'\n- USA9\n?    -\n+ USA\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 120
+    operator: CRP
+  number: 193
+  status: killed
+  tests_run: 26
+  time: 0.0016326904296875
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 121
+    operator: CRP
+  number: 194
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 121
+    operator: CRP
+  number: 195
+  status: killed
+  tests_run: 15
+  time: 0.0020210742950439453
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 138, in decodeMRZ\nValueError: birth_check_digit:\
+    \ must be a digit\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 122
+    operator: CRP
+  number: 196
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 145, in test_decode_valid_mrz\n    self.assertEqual(result[\"sex\"], \"\
+    F\")\nAssertionError: '3' != 'F'\n- 3\n+ F\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 123
+    operator: CRP
+  number: 197
+  status: killed
+  tests_run: 26
+  time: 0.009187459945678711
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: expiration_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 124
+    operator: CRP
+  number: 198
+  status: killed
+  tests_run: 15
+  time: 0.005242109298706055
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: expiration_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 124
+    operator: CRP
+  number: 199
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 156, in test_decode_extract_check_digits\n    self.assertEqual(result[\"\
+    expiration_check_digit\"], \"0\")\nAssertionError: '1' != '0'\n- 1\n+ 0\n\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 125
+    operator: CRP
+  number: 200
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 147, in test_decode_valid_mrz\n    self.assertEqual(result[\"personal_number\"\
+    ], \"12345678901234\")\nAssertionError: '2345678901234' != '12345678901234'\n\
+    - 2345678901234\n+ 12345678901234\n? +\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: CRP
+  number: 201
+  status: killed
+  tests_run: 26
+  time: 0.006315946578979492
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: CRP
+  number: 202
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: CRP
+  number: 203
+  status: survived
+  tests_run: 46
+  time: 0.0096282958984375
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: CRP
+  number: 204
+  status: survived
+  tests_run: 46
+  time: 0.007173776626586914
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 127, in decodeMRZ\nIndexError: string index\
+    \ out of range\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 127
+    operator: CRP
+  number: 205
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 132
+    operator: CRP
+  number: 206
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\nKeyError: ''\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 132
+    operator: CRP
+  number: 207
+  status: killed
+  tests_run: 15
+  time: 0.007523536682128906
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 132
+    operator: CRP
+  number: 208
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 132
+    operator: CRP
+  number: 209
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: CRP
+  number: 210
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\nKeyError: ''\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: CRP
+  number: 211
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: CRP
+  number: 212
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 133
+    operator: CRP
+  number: 213
+  status: survived
+  tests_run: 46
+  time: 0.0020503997802734375
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 135
+    operator: CRP
+  number: 214
+  status: killed
+  tests_run: 15
+  time: 0.007843255996704102
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: ''\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 135
+    operator: CRP
+  number: 215
+  status: killed
+  tests_run: 15
+  time: 0.0045566558837890625
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 135
+    operator: CRP
+  number: 216
+  status: killed
+  tests_run: 15
+  time: 0.0013127326965332031
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: ''\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 135
+    operator: CRP
+  number: 217
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: CRP
+  number: 218
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: ''\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: CRP
+  number: 219
+  status: killed
+  tests_run: 15
+  time: 0.015067338943481445
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: CRP
+  number: 220
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 137, in decodeMRZ\nKeyError: ''\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 136
+    operator: CRP
+  number: 221
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "ValueError: passport_check_digitmutpy\n\nDuring handling of\
+    \ the above exception, another exception occurred:\n\nTraceback (most recent call\
+    \ last):\n  File \".\\MRTDtest.py\", line 223, in test_decode_invalid_check_digit\n\
+    \    decodeMRZ(self.line1, invalid_line2)\nAssertionError: \"must be a digit\"\
+    \ does not match \"passport_check_digitmutpy\"\n"
+  killer: test_decode_invalid_check_digit (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 138
+    operator: CRP
+  number: 222
+  status: killed
+  tests_run: 18
+  time: 0.013066768646240234
+- exception_traceback: "ValueError: passport_check_digit\n\nDuring handling of the\
+    \ above exception, another exception occurred:\n\nTraceback (most recent call\
+    \ last):\n  File \".\\MRTDtest.py\", line 223, in test_decode_invalid_check_digit\n\
+    \    decodeMRZ(self.line1, invalid_line2)\nAssertionError: \"must be a digit\"\
+    \ does not match \"passport_check_digit\"\n"
+  killer: test_decode_invalid_check_digit (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 138
+    operator: CRP
+  number: 223
+  status: killed
+  tests_run: 18
+  time: 0.003423452377319336
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 156
+    operator: CRP
+  number: 224
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 156
+    operator: CRP
+  number: 225
+  status: survived
+  tests_run: 46
+  time: 0.003945350646972656
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 159
+    operator: CRP
+  number: 226
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 159
+    operator: CRP
+  number: 227
+  status: killed
+  tests_run: 27
+  time: 0.011853218078613281
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 159
+    operator: CRP
+  number: 228
+  status: killed
+  tests_run: 27
+  time: 0.005122184753417969
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 159
+    operator: CRP
+  number: 229
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 159
+    operator: CRP
+  number: 230
+  status: killed
+  tests_run: 27
+  time: 0.011118888854980469
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 159
+    operator: CRP
+  number: 231
+  status: killed
+  tests_run: 27
+  time: 0.005427837371826172
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 160
+    operator: CRP
+  number: 232
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 160
+    operator: CRP
+  number: 233
+  status: killed
+  tests_run: 27
+  time: 0.010214090347290039
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 160
+    operator: CRP
+  number: 234
+  status: killed
+  tests_run: 27
+  time: 0.006821393966674805
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 160
+    operator: CRP
+  number: 235
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 160
+    operator: CRP
+  number: 236
+  status: killed
+  tests_run: 27
+  time: 0.00908660888671875
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 160
+    operator: CRP
+  number: 237
+  status: killed
+  tests_run: 27
+  time: 0.006016254425048828
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 161
+    operator: CRP
+  number: 238
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 161
+    operator: CRP
+  number: 239
+  status: killed
+  tests_run: 27
+  time: 0.011818408966064453
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ mutpy\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 161
+    operator: CRP
+  number: 240
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 166, in encodeMRZ\nValueError: Missing or invalid field:\
+    \ \n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 161
+    operator: CRP
+  number: 241
+  status: killed
+  tests_run: 27
+  time: 0.01256871223449707
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 166
+    operator: CRP
+  number: 242
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 166
+    operator: CRP
+  number: 243
+  status: survived
+  tests_run: 46
+  time: 0.011377811431884766
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 169
+    operator: CRP
+  number: 244
+  status: survived
+  tests_run: 46
+  time: 0.002015352249145508
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 169
+    operator: CRP
+  number: 245
+  status: survived
+  tests_run: 46
+  time: 0.01136636734008789
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 174, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 174
+    operator: CRP
+  number: 246
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 174, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 174
+    operator: CRP
+  number: 247
+  status: killed
+  tests_run: 27
+  time: 0.010203838348388672
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 175, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: CRP
+  number: 248
+  status: killed
+  tests_run: 27
+  time: 0.005086660385131836
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 175, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 175
+    operator: CRP
+  number: 249
+  status: killed
+  tests_run: 27
+  time: 0.0020143985748291016
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 176, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 176
+    operator: CRP
+  number: 250
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 176, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 176
+    operator: CRP
+  number: 251
+  status: killed
+  tests_run: 27
+  time: 0.009949445724487305
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 177, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 177
+    operator: CRP
+  number: 252
+  status: killed
+  tests_run: 27
+  time: 0.0014107227325439453
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 177, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 177
+    operator: CRP
+  number: 253
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 178, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 178
+    operator: CRP
+  number: 254
+  status: killed
+  tests_run: 27
+  time: 0.012099981307983398
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 178, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 178
+    operator: CRP
+  number: 255
+  status: killed
+  tests_run: 27
+  time: 0.0034646987915039062
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 179, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 179
+    operator: CRP
+  number: 256
+  status: killed
+  tests_run: 27
+  time: 0.01558375358581543
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 179, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 179
+    operator: CRP
+  number: 257
+  status: killed
+  tests_run: 27
+  time: 0.008636474609375
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 180, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 180
+    operator: CRP
+  number: 258
+  status: killed
+  tests_run: 27
+  time: 0.0065059661865234375
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 180, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 180
+    operator: CRP
+  number: 259
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 181, in encodeMRZ\nKeyError: 'mutpy'\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 181
+    operator: CRP
+  number: 260
+  status: killed
+  tests_run: 27
+  time: 0.005010366439819336
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 181, in encodeMRZ\nKeyError: ''\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 181
+    operator: CRP
+  number: 261
+  status: killed
+  tests_run: 27
+  time: 0.014650583267211914
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 379, in test_encode_decode_roundtrip\n    self.assertEqual(decoded[\"personal_number\"\
+    ], \"12345678901234\")\nAssertionError: '' != '12345678901234'\n+ 12345678901234\n"
+  killer: test_encode_decode_roundtrip (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: CRP
+  number: 262
+  status: killed
+  tests_run: 28
+  time: 0.01762557029724121
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 379, in test_encode_decode_roundtrip\n    self.assertEqual(decoded[\"personal_number\"\
+    ], \"12345678901234\")\nAssertionError: '' != '12345678901234'\n+ 12345678901234\n"
+  killer: test_encode_decode_roundtrip (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: CRP
+  number: 263
+  status: killed
+  tests_run: 28
+  time: 0.017656803131103516
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 338, in test_encode_optional_personal_number\n    self.assertEqual(line2[28:42],\
+    \ \"<\" * 14)\nAssertionError: 'MUTPY<<<<<<<<<' != '<<<<<<<<<<<<<<'\n- MUTPY<<<<<<<<<\n\
+    + <<<<<<<<<<<<<<\n\n"
+  killer: test_encode_optional_personal_number (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: CRP
+  number: 264
+  status: killed
+  tests_run: 35
+  time: 0.00941777229309082
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: CRP
+  number: 265
+  status: killed
+  tests_run: 27
+  time: 0.011489152908325195
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 186
+    operator: CRP
+  number: 266
+  status: survived
+  tests_run: 46
+  time: 0.007086992263793945
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 189, in encodeMRZ\nValueError: Invalid holder_name format\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 187
+    operator: CRP
+  number: 267
+  status: killed
+  tests_run: 27
+  time: 0.0020334720611572266
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 187, in encodeMRZ\nValueError: empty separator\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 187
+    operator: CRP
+  number: 268
+  status: killed
+  tests_run: 27
+  time: 0.009925127029418945
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 189, in encodeMRZ\nValueError: Invalid holder_name format\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 188
+    operator: CRP
+  number: 269
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 189
+    operator: CRP
+  number: 270
+  status: survived
+  tests_run: 46
+  time: 0.002039670944213867
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 189
+    operator: CRP
+  number: 271
+  status: survived
+  tests_run: 46
+  time: 0.015956640243530273
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 374, in test_encode_decode_roundtrip\n    self.assertEqual(decoded[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'MAHIMA, MAHIMA' != 'JAIN, MAHIMA'\n- MAHIMA,\
+    \ MAHIMA\n? ^ - ^^\n+ JAIN, MAHIMA\n? ^  ^\n\n"
+  killer: test_encode_decode_roundtrip (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: CRP
+  number: 272
+  status: killed
+  tests_run: 28
+  time: 0.013175487518310547
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: CRP
+  number: 273
+  status: survived
+  tests_run: 46
+  time: 0.006047964096069336
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 374, in test_encode_decode_roundtrip\n    self.assertEqual(decoded[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: ' J A I N,  MAHIMA' != 'JAIN, MAHIMA'\n\
+    -  J A I N,  MAHIMA\n? - - - -  -\n+ JAIN, MAHIMA\n\n"
+  killer: test_encode_decode_roundtrip (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: CRP
+  number: 274
+  status: killed
+  tests_run: 28
+  time: 0.006215333938598633
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: CRP
+  number: 275
+  status: survived
+  tests_run: 46
+  time: 0.009669303894042969
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 190
+    operator: CRP
+  number: 276
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 191, in encodeMRZ\nIndexError: list index out of range\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 191
+    operator: CRP
+  number: 277
+  status: killed
+  tests_run: 27
+  time: 0.003999948501586914
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 191
+    operator: CRP
+  number: 278
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 374, in test_encode_decode_roundtrip\n    self.assertEqual(decoded[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'JAIN,  M A H I M A' != 'JAIN, MAHIMA'\n\
+    - JAIN,  M A H I M A\n?       - - - - - -\n+ JAIN, MAHIMA\n\n"
+  killer: test_encode_decode_roundtrip (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 191
+    operator: CRP
+  number: 279
+  status: killed
+  tests_run: 28
+  time: 0.008567571640014648
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 191
+    operator: CRP
+  number: 280
+  status: survived
+  tests_run: 46
+  time: 0.005538463592529297
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 191
+    operator: CRP
+  number: 281
+  status: survived
+  tests_run: 46
+  time: 0.00525212287902832
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 193
+    operator: CRP
+  number: 282
+  status: survived
+  tests_run: 46
+  time: 0.003135204315185547
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 193
+    operator: CRP
+  number: 283
+  status: survived
+  tests_run: 46
+  time: 0.009078025817871094
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 194
+    operator: CRP
+  number: 284
+  status: killed
+  tests_run: 27
+  time: 0.0077936649322509766
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 219, in encodeMRZ\nValueError: holder_name must separate\
+    \ names with <<\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 194
+    operator: CRP
+  number: 285
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 225, in encodeMRZ\nValueError: Invalid passport_number\
+    \ characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 196
+    operator: CRP
+  number: 286
+  status: killed
+  tests_run: 27
+  time: 0.0015180110931396484
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 225, in encodeMRZ\nValueError: Invalid passport_number\
+    \ characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 196
+    operator: CRP
+  number: 287
+  status: killed
+  tests_run: 27
+  time: 0.002429962158203125
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 210, in encodeMRZ\nValueError: Invalid issuing_country\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 197
+    operator: CRP
+  number: 288
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 210, in encodeMRZ\nValueError: Invalid issuing_country\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 197
+    operator: CRP
+  number: 289
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 200, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: CRP
+  number: 290
+  status: killed
+  tests_run: 27
+  time: 0.0053653717041015625
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 200, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: CRP
+  number: 291
+  status: killed
+  tests_run: 27
+  time: 0.002013683319091797
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 200, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: CRP
+  number: 292
+  status: killed
+  tests_run: 27
+  time: 0.004404783248901367
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 200, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: CRP
+  number: 293
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 200
+    operator: CRP
+  number: 294
+  status: survived
+  tests_run: 46
+  time: 0.013412237167358398
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 200
+    operator: CRP
+  number: 295
+  status: survived
+  tests_run: 46
+  time: 0.0020296573638916016
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 202, in encodeMRZ\nIndexError: string index out of range\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: CRP
+  number: 296
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 202, in encodeMRZ\nIndexError: string index out of range\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: CRP
+  number: 297
+  status: killed
+  tests_run: 27
+  time: 0.0055887699127197266
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 203, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: CRP
+  number: 298
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 203, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: CRP
+  number: 299
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 203
+    operator: CRP
+  number: 300
+  status: survived
+  tests_run: 46
+  time: 0.004022836685180664
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 203
+    operator: CRP
+  number: 301
+  status: survived
+  tests_run: 46
+  time: 0.009552240371704102
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 206
+    operator: CRP
+  number: 302
+  status: survived
+  tests_run: 46
+  time: 0.004775285720825195
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 206
+    operator: CRP
+  number: 303
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 207
+    operator: CRP
+  number: 304
+  status: survived
+  tests_run: 46
+  time: 0.003523111343383789
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 207
+    operator: CRP
+  number: 305
+  status: survived
+  tests_run: 46
+  time: 0.001332998275756836
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 210, in encodeMRZ\nValueError: Invalid issuing_country\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 209
+    operator: CRP
+  number: 306
+  status: killed
+  tests_run: 27
+  time: 0.00861358642578125
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: CRP
+  number: 307
+  status: survived
+  tests_run: 46
+  time: 0.006170749664306641
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 210
+    operator: CRP
+  number: 308
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 212
+    operator: CRP
+  number: 309
+  status: survived
+  tests_run: 46
+  time: 0.009963274002075195
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 327, in test_encode_name_too_long\n    encodeMRZ(record)\n\
+    AssertionError: \"exceeds\" does not match \"mutpy\"\n"
+  killer: test_encode_name_too_long (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 213
+    operator: CRP
+  number: 310
+  status: killed
+  tests_run: 34
+  time: 0.006422281265258789
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 327, in test_encode_name_too_long\n    encodeMRZ(record)\nAssertionError:\
+    \ \"exceeds\" does not match \"\"\n"
+  killer: test_encode_name_too_long (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 213
+    operator: CRP
+  number: 311
+  status: killed
+  tests_run: 34
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 215
+    operator: CRP
+  number: 312
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 215
+    operator: CRP
+  number: 313
+  status: killed
+  tests_run: 27
+  time: 0.00733494758605957
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 216
+    operator: CRP
+  number: 314
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 216
+    operator: CRP
+  number: 315
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 219, in encodeMRZ\nValueError: holder_name must separate\
+    \ names with <<\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 218
+    operator: CRP
+  number: 316
+  status: killed
+  tests_run: 27
+  time: 0.0011417865753173828
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 218
+    operator: CRP
+  number: 317
+  status: survived
+  tests_run: 46
+  time: 0.008476734161376953
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 219
+    operator: CRP
+  number: 318
+  status: survived
+  tests_run: 46
+  time: 0.0032804012298583984
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 219
+    operator: CRP
+  number: 319
+  status: survived
+  tests_run: 46
+  time: 0.0020155906677246094
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 221
+    operator: CRP
+  number: 320
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 222
+    operator: CRP
+  number: 321
+  status: survived
+  tests_run: 46
+  time: 0.0005140304565429688
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 222
+    operator: CRP
+  number: 322
+  status: survived
+  tests_run: 46
+  time: 0.01642584800720215
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 225
+    operator: CRP
+  number: 323
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 225
+    operator: CRP
+  number: 324
+  status: survived
+  tests_run: 46
+  time: 0.01613903045654297
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: CRP
+  number: 325
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: CRP
+  number: 326
+  status: survived
+  tests_run: 46
+  time: 0.01685643196105957
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 228, in encodeMRZ\nValueError: Invalid sex\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: CRP
+  number: 327
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 228, in encodeMRZ\nValueError: Invalid sex\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: CRP
+  number: 328
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: CRP
+  number: 329
+  status: survived
+  tests_run: 46
+  time: 0.0015456676483154297
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 227
+    operator: CRP
+  number: 330
+  status: survived
+  tests_run: 46
+  time: 0.015817642211914062
+- exception_traceback: "ValueError: mutpy\n\nDuring handling of the above exception,\
+    \ another exception occurred:\n\nTraceback (most recent call last):\n  File \"\
+    .\\MRTDtest.py\", line 349, in test_encode_invalid_sex\n    encodeMRZ(record)\n\
+    AssertionError: \"Invalid sex\" does not match \"mutpy\"\n"
+  killer: test_encode_invalid_sex (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 228
+    operator: CRP
+  number: 331
+  status: killed
+  tests_run: 30
+  time: 0.0
+- exception_traceback: "ValueError\n\nDuring handling of the above exception, another\
+    \ exception occurred:\n\nTraceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 349, in test_encode_invalid_sex\n    encodeMRZ(record)\nAssertionError:\
+    \ \"Invalid sex\" does not match \"\"\n"
+  killer: test_encode_invalid_sex (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 228
+    operator: CRP
+  number: 332
+  status: killed
+  tests_run: 30
+  time: 0.010637760162353516
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 230
+    operator: CRP
+  number: 333
+  status: survived
+  tests_run: 46
+  time: 0.00569462776184082
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 231
+    operator: CRP
+  number: 334
+  status: survived
+  tests_run: 46
+  time: 0.010094881057739258
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 231
+    operator: CRP
+  number: 335
+  status: survived
+  tests_run: 46
+  time: 0.006594419479370117
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 234
+    operator: CRP
+  number: 336
+  status: survived
+  tests_run: 46
+  time: 0.010165214538574219
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 234
+    operator: CRP
+  number: 337
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 236
+    operator: CRP
+  number: 338
+  status: survived
+  tests_run: 46
+  time: 0.008756637573242188
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 236
+    operator: CRP
+  number: 339
+  status: survived
+  tests_run: 46
+  time: 0.009876251220703125
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 237
+    operator: CRP
+  number: 340
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 237
+    operator: CRP
+  number: 341
+  status: survived
+  tests_run: 46
+  time: 0.011484384536743164
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 372, in test_encode_decode_roundtrip\n    decoded = decodeMRZ(line1, line2)\n\
+    \  File \"MRTD\", line 98, in decodeMRZ\nValueError: MRZ line 1 must contain 44\
+    \ characters\n"
+  killer: test_encode_decode_roundtrip (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 240
+    operator: CRP
+  number: 342
+  status: killed
+  tests_run: 28
+  time: 0.0017504692077636719
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 240
+    operator: CRP
+  number: 343
+  status: incompetent
+  tests_run: 30
+  time: 0.0061187744140625
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 240
+    operator: CRP
+  number: 344
+  status: incompetent
+  tests_run: 30
+  time: 0.0017998218536376953
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 287, in test_encode_check_digits\n    line2[9], calculateCheckDigit(line2[0:9])\n\
+    AssertionError: '<' != '7'\n- <\n+ 7\n\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 241
+    operator: CRP
+  number: 345
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 241
+    operator: CRP
+  number: 346
+  status: incompetent
+  tests_run: 30
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 241
+    operator: CRP
+  number: 347
+  status: incompetent
+  tests_run: 30
+  time: 0.004018545150756836
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 296, in test_encode_check_digits\n    line2[43], calculateCheckDigit(line2[28:42])\n\
+    AssertionError: '<' != '3'\n- <\n+ 3\n\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 242
+    operator: CRP
+  number: 348
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 242
+    operator: CRP
+  number: 349
+  status: incompetent
+  tests_run: 30
+  time: 0.006739377975463867
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 242
+    operator: CRP
+  number: 350
+  status: incompetent
+  tests_run: 30
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 296, in test_encode_check_digits\n    line2[43], calculateCheckDigit(line2[28:42])\n\
+    AssertionError: 'u' != '3'\n- u\n+ 3\n\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 258
+    operator: CRP
+  number: 351
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 296, in test_encode_check_digits\n    line2[43], calculateCheckDigit(line2[28:42])\n\
+    IndexError: string index out of range\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 258
+    operator: CRP
+  number: 352
+  status: killed
+  tests_run: 27
+  time: 0.004612922668457031
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 519, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    field\"], \"passport_number\")\nAssertionError: 'mutpy' != 'passport_number'\n\
+    - mutpy\n+ passport_number\n\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: CRP
+  number: 353
+  status: killed
+  tests_run: 42
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 519, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    field\"], \"passport_number\")\nAssertionError: '' != 'passport_number'\n+ passport_number\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: CRP
+  number: 354
+  status: killed
+  tests_run: 42
+  time: 0.011357307434082031
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: CRP
+  number: 355
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: CRP
+  number: 356
+  status: killed
+  tests_run: 38
+  time: 0.010932683944702148
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 282, in validateMRZ\nKeyError: 'mutpy'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: CRP
+  number: 357
+  status: killed
+  tests_run: 38
+  time: 0.005717039108276367
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 282, in validateMRZ\nKeyError: ''\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: CRP
+  number: 358
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 448, in test_validate_birth_date_mismatch\n    \"birth_date\"\nAssertionError:\
+    \ 'mutpy' != 'birth_date'\n- mutpy\n+ birth_date\n\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: CRP
+  number: 359
+  status: killed
+  tests_run: 38
+  time: 0.012003421783447266
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 448, in test_validate_birth_date_mismatch\n    \"birth_date\"\nAssertionError:\
+    \ '' != 'birth_date'\n+ birth_date\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: CRP
+  number: 360
+  status: killed
+  tests_run: 38
+  time: 0.00817561149597168
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 458, in test_validate_expiration_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_expiration_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: CRP
+  number: 361
+  status: killed
+  tests_run: 39
+  time: 0.004423856735229492
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 0 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: CRP
+  number: 362
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 283, in validateMRZ\nKeyError: 'mutpy'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: CRP
+  number: 363
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 283, in validateMRZ\nKeyError: ''\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: CRP
+  number: 364
+  status: killed
+  tests_run: 38
+  time: 0.009014129638671875
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 461, in test_validate_expiration_mismatch\n    \"expiration_date\"\nAssertionError:\
+    \ 'mutpy' != 'expiration_date'\n- mutpy\n+ expiration_date\n\n"
+  killer: test_validate_expiration_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 284
+    operator: CRP
+  number: 365
+  status: killed
+  tests_run: 39
+  time: 0.007664203643798828
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 461, in test_validate_expiration_mismatch\n    \"expiration_date\"\nAssertionError:\
+    \ '' != 'expiration_date'\n+ expiration_date\n"
+  killer: test_validate_expiration_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 284
+    operator: CRP
+  number: 366
+  status: killed
+  tests_run: 39
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 284
+    operator: CRP
+  number: 367
+  status: killed
+  tests_run: 38
+  time: 0.003397226333618164
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 284
+    operator: CRP
+  number: 368
+  status: killed
+  tests_run: 38
+  time: 0.005053997039794922
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 285, in validateMRZ\nKeyError: 'mutpy'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 285
+    operator: CRP
+  number: 369
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 285, in validateMRZ\nKeyError: ''\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 285
+    operator: CRP
+  number: 370
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 506, in test_validate_multiple_mismatches\n    \"personal_number\"\nAssertionError:\
+    \ Lists differ: ['passport_number', 'birth_date', 'expiration_date', 'mutpy']\
+    \ != ['passport_number', 'birth_date', 'expiration_date', 'personal_number']\n\
+    \nFirst differing element 3:\n'mutpy'\n'personal_number'\n\n- ['passport_number',\
+    \ 'birth_date', 'expiration_date', 'mutpy']\n?                               \
+    \                         ^^^^\n\n+ ['passport_number', 'birth_date', 'expiration_date',\
+    \ 'personal_number']\n?                                                      \
+    \ +++++++++++ ^^^\n\n"
+  killer: test_validate_multiple_mismatches (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 286
+    operator: CRP
+  number: 371
+  status: killed
+  tests_run: 43
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 506, in test_validate_multiple_mismatches\n    \"personal_number\"\nAssertionError:\
+    \ Lists differ: ['passport_number', 'birth_date', 'expiration_date', ''] != ['passport_number',\
+    \ 'birth_date', 'expiration_date', 'personal_number']\n\nFirst differing element\
+    \ 3:\n''\n'personal_number'\n\n- ['passport_number', 'birth_date', 'expiration_date',\
+    \ '']\n+ ['passport_number', 'birth_date', 'expiration_date', 'personal_number']\n\
+    ?                                                       +++++++++++++++\n\n"
+  killer: test_validate_multiple_mismatches (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 286
+    operator: CRP
+  number: 372
+  status: killed
+  tests_run: 43
+  time: 0.014128446578979492
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 286
+    operator: CRP
+  number: 373
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 286
+    operator: CRP
+  number: 374
+  status: killed
+  tests_run: 38
+  time: 0.011569738388061523
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 287, in validateMRZ\nKeyError: 'mutpy'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 287
+    operator: CRP
+  number: 375
+  status: killed
+  tests_run: 38
+  time: 0.0025703907012939453
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 443, in test_validate_birth_date_mismatch\n    result = validateMRZ(self.line1,\
+    \ invalid_line2)\n  File \"MRTD\", line 287, in validateMRZ\nKeyError: ''\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 287
+    operator: CRP
+  number: 376
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 447, in test_validate_birth_date_mismatch\n    result[\"mismatches\"][0][\"\
+    field\"],\nKeyError: 'field'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 297
+    operator: CRP
+  number: 377
+  status: killed
+  tests_run: 38
+  time: 0.01638031005859375
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 447, in test_validate_birth_date_mismatch\n    result[\"mismatches\"][0][\"\
+    field\"],\nKeyError: 'field'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 297
+    operator: CRP
+  number: 378
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 520, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    original_digit\"], invalid_line2[9])\nKeyError: 'original_digit'\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 298
+    operator: CRP
+  number: 379
+  status: killed
+  tests_run: 42
+  time: 0.015274524688720703
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 520, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    original_digit\"], invalid_line2[9])\nKeyError: 'original_digit'\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 298
+    operator: CRP
+  number: 380
+  status: killed
+  tests_run: 42
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 522, in test_validate_mismatch_report_details\n    mismatch[\"calculated_digit\"\
+    ],\nKeyError: 'calculated_digit'\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 299
+    operator: CRP
+  number: 381
+  status: killed
+  tests_run: 42
+  time: 0.004954099655151367
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 522, in test_validate_mismatch_report_details\n    mismatch[\"calculated_digit\"\
+    ],\nKeyError: 'calculated_digit'\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 299
+    operator: CRP
+  number: 382
+  status: killed
+  tests_run: 42
+  time: 0.011157989501953125
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 525, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    status\"], \"failed\")\nKeyError: 'status'\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 300
+    operator: CRP
+  number: 383
+  status: killed
+  tests_run: 42
+  time: 0.005025148391723633
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 525, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    status\"], \"failed\")\nKeyError: 'status'\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 300
+    operator: CRP
+  number: 384
+  status: killed
+  tests_run: 42
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 525, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    status\"], \"failed\")\nAssertionError: 'mutpy' != 'failed'\n- mutpy\n+ failed\n\
+    \n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 300
+    operator: CRP
+  number: 385
+  status: killed
+  tests_run: 42
+  time: 0.005658626556396484
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 525, in test_validate_mismatch_report_details\n    self.assertEqual(mismatch[\"\
+    status\"], \"failed\")\nAssertionError: '' != 'failed'\n+ failed\n"
+  killer: test_validate_mismatch_report_details (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 300
+    operator: CRP
+  number: 386
+  status: killed
+  tests_run: 42
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 495, in test_validate_multiple_mismatches\n    self.assertEqual(result[\"\
+    status\"], \"failed\")\nKeyError: 'status'\n"
+  killer: test_validate_multiple_mismatches (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 305
+    operator: CRP
+  number: 387
+  status: killed
+  tests_run: 43
+  time: 0.0016372203826904297
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 495, in test_validate_multiple_mismatches\n    self.assertEqual(result[\"\
+    status\"], \"failed\")\nKeyError: 'status'\n"
+  killer: test_validate_multiple_mismatches (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 305
+    operator: CRP
+  number: 388
+  status: killed
+  tests_run: 43
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nKeyError: 'mismatches'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 306
+    operator: CRP
+  number: 389
+  status: killed
+  tests_run: 38
+  time: 0.010308504104614258
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nKeyError: 'mismatches'\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 306
+    operator: CRP
+  number: 390
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 495, in test_validate_multiple_mismatches\n    self.assertEqual(result[\"\
+    status\"], \"failed\")\nAssertionError: 'mutpy' != 'failed'\n- mutpy\n+ failed\n\
+    \n"
+  killer: test_validate_multiple_mismatches (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 305
+    operator: CRP
+  number: 391
+  status: killed
+  tests_run: 43
+  time: 0.010588645935058594
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 495, in test_validate_multiple_mismatches\n    self.assertEqual(result[\"\
+    status\"], \"failed\")\nAssertionError: '' != 'failed'\n+ failed\n"
+  killer: test_validate_multiple_mismatches (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 305
+    operator: CRP
+  number: 392
+  status: killed
+  tests_run: 43
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 421, in test_validate_success\n    self.assertEqual(result[\"status\"],\
+    \ \"success\")\nKeyError: 'status'\n"
+  killer: test_validate_success (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 310
+    operator: CRP
+  number: 393
+  status: killed
+  tests_run: 46
+  time: 0.00716090202331543
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 421, in test_validate_success\n    self.assertEqual(result[\"status\"],\
+    \ \"success\")\nKeyError: 'status'\n"
+  killer: test_validate_success (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 310
+    operator: CRP
+  number: 394
+  status: killed
+  tests_run: 46
+  time: 0.008716821670532227
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 422, in test_validate_success\n    self.assertEqual(result[\"mismatches\"\
+    ], [])\nKeyError: 'mismatches'\n"
+  killer: test_validate_success (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 311
+    operator: CRP
+  number: 395
+  status: killed
+  tests_run: 46
+  time: 0.009283781051635742
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 422, in test_validate_success\n    self.assertEqual(result[\"mismatches\"\
+    ], [])\nKeyError: 'mismatches'\n"
+  killer: test_validate_success (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 311
+    operator: CRP
+  number: 396
+  status: killed
+  tests_run: 46
+  time: 0.009410619735717773
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 421, in test_validate_success\n    self.assertEqual(result[\"status\"],\
+    \ \"success\")\nAssertionError: 'mutpy' != 'success'\n- mutpy\n+ success\n\n"
+  killer: test_validate_success (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 310
+    operator: CRP
+  number: 397
+  status: killed
+  tests_run: 46
+  time: 0.01195979118347168
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 421, in test_validate_success\n    self.assertEqual(result[\"status\"],\
+    \ \"success\")\nAssertionError: '' != 'success'\n+ success\n"
+  killer: test_validate_success (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 310
+    operator: CRP
+  number: 398
+  status: killed
+  tests_run: 46
+  time: 0.0020189285278320312
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 68
+    operator: LCR
+  number: 399
+  status: survived
+  tests_run: 46
+  time: 0.015059709548950195
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 201, in test_decode_invalid_birth_month\n    decodeMRZ(self.line1, invalid_line2)\n\
+    \  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line 81, in validateMRZDate\n\
+    IndexError: list index out of range\n"
+  killer: test_decode_invalid_birth_month (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: LCR
+  number: 400
+  status: killed
+  tests_run: 16
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 209, in test_decode_invalid_expiration_day\n    decodeMRZ(self.line1, invalid_line2)\n\
+    AssertionError: ValueError not raised\n"
+  killer: test_decode_invalid_expiration_day (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: LCR
+  number: 401
+  status: killed
+  tests_run: 19
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 94
+    operator: LCR
+  number: 402
+  status: incompetent
+  tests_run: 45
+  time: 0.0026645660400390625
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 307, in test_encode_missing_field\n    encodeMRZ(record)\n  File \"MRTD\"\
+    , line 165, in encodeMRZ\nKeyError: 'passport_number'\n"
+  killer: test_encode_missing_field (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 165
+    operator: LCR
+  number: 403
+  status: killed
+  tests_run: 31
+  time: 0.014207601547241211
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 379, in test_encode_decode_roundtrip\n    self.assertEqual(decoded[\"personal_number\"\
+    ], \"12345678901234\")\nAssertionError: '' != '12345678901234'\n+ 12345678901234\n"
+  killer: test_encode_decode_roundtrip (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 182
+    operator: LCR
+  number: 404
+  status: killed
+  tests_run: 28
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 192
+    operator: LCR
+  number: 405
+  status: survived
+  tests_run: 46
+  time: 0.009692668914794922
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: LCR
+  number: 406
+  status: survived
+  tests_run: 46
+  time: 0.0014145374298095703
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 203, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: LCR
+  number: 407
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 209
+    operator: LCR
+  number: 408
+  status: survived
+  tests_run: 46
+  time: 0.015260696411132812
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 215
+    operator: LCR
+  number: 409
+  status: killed
+  tests_run: 27
+  time: 0.0020160675048828125
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 221
+    operator: LCR
+  number: 410
+  status: survived
+  tests_run: 46
+  time: 0.008249759674072266
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '0' != '3'\n- 0\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 44
+    operator: LOR
+  number: 411
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 68, in test_crc16_different_inputs\n    self.assertEqual(calculateCRC16(\"\
+    A\"), 0x30C0)\nAssertionError: 49345 != 12480\n"
+  killer: test_crc16_different_inputs (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 47
+    operator: LOR
+  number: 412
+  status: killed
+  tests_run: 3
+  time: 0.0015211105346679688
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '5' != '3'\n- 5\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 48
+    operator: LOR
+  number: 413
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '0' != '3'\n- 0\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 48
+    operator: LOR
+  number: 414
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '6' != '3'\n- 6\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 50
+    operator: LOR
+  number: 415
+  status: killed
+  tests_run: 1
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 51, in test_check_digit_known_value\n    self.assertEqual(calculateCheckDigit(\"\
+    123456789\"), \"3\")\nAssertionError: '5' != '3'\n- 5\n+ 3\n\n"
+  killer: test_check_digit_known_value (MRTDtest.TestCRC16)
+  module: *id001
+  mutations:
+  - lineno: 52
+    operator: LOR
+  number: 416
+  status: killed
+  tests_run: 1
+  time: 0.0010180473327636719
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 68
+    operator: ROR
+  number: 417
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 76, in validateMRZDate\nValueError: birth_date: invalid month\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 418
+  status: killed
+  tests_run: 15
+  time: 0.013401985168457031
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 419
+  status: survived
+  tests_run: 46
+  time: 0.00534510612487793
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 76, in validateMRZDate\nValueError: birth_date: invalid month\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 420
+  status: killed
+  tests_run: 15
+  time: 0.0020198822021484375
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 75
+    operator: ROR
+  number: 421
+  status: survived
+  tests_run: 46
+  time: 0.0059452056884765625
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 78
+    operator: ROR
+  number: 422
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 82, in validateMRZDate\nValueError: birth_date: invalid day\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: ROR
+  number: 423
+  status: killed
+  tests_run: 15
+  time: 0.0033202171325683594
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: ROR
+  number: 424
+  status: survived
+  tests_run: 46
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 82, in validateMRZDate\nValueError: birth_date: invalid day\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: ROR
+  number: 425
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\n  File \"MRTD\", line\
+    \ 82, in validateMRZDate\nValueError: expiration_date: invalid day\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 81
+    operator: ROR
+  number: 426
+  status: killed
+  tests_run: 15
+  time: 0.0016357898712158203
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 98, in decodeMRZ\nValueError: MRZ line 1\
+    \ must contain 44 characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 97
+    operator: ROR
+  number: 427
+  status: killed
+  tests_run: 15
+  time: 0.010260343551635742
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 101, in decodeMRZ\nValueError: MRZ line 2\
+    \ must contain 44 characters\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 100
+    operator: ROR
+  number: 428
+  status: killed
+  tests_run: 15
+  time: 0.006399869918823242
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 112, in decodeMRZ\nValueError: MRZ line 2\
+    \ position 43 must be a filler\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 111
+    operator: ROR
+  number: 429
+  status: killed
+  tests_run: 15
+  time: 0.0020194053649902344
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 189, in encodeMRZ\nValueError: Invalid holder_name format\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 188
+    operator: ROR
+  number: 430
+  status: killed
+  tests_run: 27
+  time: 0.006384372711181641
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 200, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: ROR
+  number: 431
+  status: killed
+  tests_run: 27
+  time: 0.0034017562866210938
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 200, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 199
+    operator: ROR
+  number: 432
+  status: killed
+  tests_run: 27
+  time: 0.013384103775024414
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 203, in encodeMRZ\nValueError: Invalid document_type\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 202
+    operator: ROR
+  number: 433
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 210, in encodeMRZ\nValueError: Invalid issuing_country\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 209
+    operator: ROR
+  number: 434
+  status: killed
+  tests_run: 27
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 213, in encodeMRZ\nValueError: holder_name exceeds 39 characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 212
+    operator: ROR
+  number: 435
+  status: killed
+  tests_run: 27
+  time: 0.005586147308349609
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 212
+    operator: ROR
+  number: 436
+  status: survived
+  tests_run: 46
+  time: 0.016660213470458984
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 216, in encodeMRZ\nValueError: Invalid holder_name characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 215
+    operator: ROR
+  number: 437
+  status: killed
+  tests_run: 27
+  time: 0.009961605072021484
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 221
+    operator: ROR
+  number: 438
+  status: survived
+  tests_run: 46
+  time: 0.017177104949951172
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 222, in encodeMRZ\nValueError: Invalid passport_number\
+    \ length\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 221
+    operator: ROR
+  number: 439
+  status: killed
+  tests_run: 27
+  time: 0.01677536964416504
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 336, in test_encode_optional_personal_number\n    line1, line2 = encodeMRZ(record)\n\
+    \  File \"MRTD\", line 231, in encodeMRZ\nValueError: personal_number exceeds\
+    \ 14 characters\n"
+  killer: test_encode_optional_personal_number (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 230
+    operator: ROR
+  number: 440
+  status: killed
+  tests_run: 35
+  time: 0.014366865158081055
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 284, in test_encode_check_digits\n    line1, line2 = encodeMRZ(self.record)\n\
+    \  File \"MRTD\", line 231, in encodeMRZ\nValueError: personal_number exceeds\
+    \ 14 characters\n"
+  killer: test_encode_check_digits (MRTDtest.TestMRZEncoding)
+  module: *id001
+  mutations:
+  - lineno: 230
+    operator: ROR
+  number: 441
+  status: killed
+  tests_run: 27
+  time: 0.007639408111572266
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 3 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 295
+    operator: ROR
+  number: 442
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 71
+    operator: SIR
+  number: 443
+  status: survived
+  tests_run: 46
+  time: 0.004862070083618164
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 76, in validateMRZDate\nValueError: birth_date: invalid month\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 72
+    operator: SIR
+  number: 444
+  status: killed
+  tests_run: 15
+  time: 0.00402522087097168
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 76, in validateMRZDate\nValueError: birth_date: invalid month\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 72
+    operator: SIR
+  number: 445
+  status: killed
+  tests_run: 15
+  time: 0.004822731018066406
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 82, in validateMRZDate\nValueError: birth_date: invalid day\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 73
+    operator: SIR
+  number: 446
+  status: killed
+  tests_run: 15
+  time: 0.004027843475341797
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 73
+    operator: SIR
+  number: 447
+  status: survived
+  tests_run: 46
+  time: 0.0020380020141601562
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 115
+    operator: SIR
+  number: 448
+  status: survived
+  tests_run: 46
+  time: 0.00528407096862793
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 139, in test_decode_valid_mrz\n    self.assertEqual(result[\"document_type\"\
+    ], \"P<\")\nAssertionError: 'P<USAJAIN<<MAHIMA<<<<<<<<<<<<<<<<<<<<<<<<<<<' !=\
+    \ 'P<'\n- P<USAJAIN<<MAHIMA<<<<<<<<<<<<<<<<<<<<<<<<<<<\n+ P<\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 115
+    operator: SIR
+  number: 449
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 140, in test_decode_valid_mrz\n    self.assertEqual(result[\"issuing_country\"\
+    ], \"USA\")\nAssertionError: 'P<USA' != 'USA'\n- P<USA\n? --\n+ USA\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 116
+    operator: SIR
+  number: 450
+  status: killed
+  tests_run: 26
+  time: 0.009420394897460938
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 140, in test_decode_valid_mrz\n    self.assertEqual(result[\"issuing_country\"\
+    ], \"USA\")\nAssertionError: 'USAJAIN<<MAHIMA<<<<<<<<<<<<<<<<<<<<<<<<<<<' != 'USA'\n\
+    - USAJAIN<<MAHIMA<<<<<<<<<<<<<<<<<<<<<<<<<<<\n+ USA\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 116
+    operator: SIR
+  number: 451
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 141, in test_decode_valid_mrz\n    self.assertEqual(result[\"holder_name\"\
+    ], \"JAIN, MAHIMA\")\nAssertionError: 'P USAJAIN, MAHIMA' != 'JAIN, MAHIMA'\n\
+    - P USAJAIN, MAHIMA\n? -----\n+ JAIN, MAHIMA\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: SIR
+  number: 452
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 117
+    operator: SIR
+  number: 453
+  status: survived
+  tests_run: 46
+  time: 0.008640289306640625
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: SIR
+  number: 454
+  status: survived
+  tests_run: 46
+  time: 0.008111953735351562
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 142, in test_decode_valid_mrz\n    self.assertEqual(result[\"passport_number\"\
+    ], \"A12345678\")\nAssertionError: 'A123456780USA9905150F300630012345678901234<0'\
+    \ != 'A12345678'\n- A123456780USA9905150F300630012345678901234<0\n+ A12345678\n\
+    \n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 118
+    operator: SIR
+  number: 455
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 143, in test_decode_valid_mrz\n    self.assertEqual(result[\"nationality\"\
+    ], \"USA\")\nAssertionError: 'A123456780USA' != 'USA'\n- A123456780USA\n+ USA\n\
+    \n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 120
+    operator: SIR
+  number: 456
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 143, in test_decode_valid_mrz\n    self.assertEqual(result[\"nationality\"\
+    ], \"USA\")\nAssertionError: 'USA9905150F300630012345678901234<0' != 'USA'\n-\
+    \ USA9905150F300630012345678901234<0\n+ USA\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 120
+    operator: SIR
+  number: 457
+  status: killed
+  tests_run: 26
+  time: 0.016902446746826172
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 121
+    operator: SIR
+  number: 458
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 132, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: birth_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 121
+    operator: SIR
+  number: 459
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: expiration_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 124
+    operator: SIR
+  number: 460
+  status: killed
+  tests_run: 15
+  time: 0.018074750900268555
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 152, in test_decode_extract_check_digits\n    result = decodeMRZ(self.line1,\
+    \ self.line2)\n  File \"MRTD\", line 133, in decodeMRZ\n  File \"MRTD\", line\
+    \ 69, in validateMRZDate\nValueError: expiration_date: date must contain six digits\n"
+  killer: test_decode_extract_check_digits (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 124
+    operator: SIR
+  number: 461
+  status: killed
+  tests_run: 15
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 147, in test_decode_valid_mrz\n    self.assertEqual(result[\"personal_number\"\
+    ], \"12345678901234\")\nAssertionError: 'A123456780USA9905150F300630012345678901234'\
+    \ != '12345678901234'\n- A123456780USA9905150F300630012345678901234\n+ 12345678901234\n\
+    \n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: SIR
+  number: 462
+  status: killed
+  tests_run: 26
+  time: 0.015525341033935547
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 147, in test_decode_valid_mrz\n    self.assertEqual(result[\"personal_number\"\
+    ], \"12345678901234\")\nAssertionError: '12345678901234<0' != '12345678901234'\n\
+    - 12345678901234<0\n?               --\n+ 12345678901234\n\n"
+  killer: test_decode_valid_mrz (MRTDtest.TestMRZDecoding)
+  module: *id001
+  mutations:
+  - lineno: 126
+    operator: SIR
+  number: 463
+  status: killed
+  tests_run: 26
+  time: 0.0
+- exception_traceback: null
+  killer: null
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: SIR
+  number: 464
+  status: survived
+  tests_run: 46
+  time: 0.013283729553222656
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 282
+    operator: SIR
+  number: 465
+  status: killed
+  tests_run: 38
+  time: 0.0012214183807373047
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 458, in test_validate_expiration_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_expiration_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: SIR
+  number: 466
+  status: killed
+  tests_run: 39
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 458, in test_validate_expiration_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_expiration_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 283
+    operator: SIR
+  number: 467
+  status: killed
+  tests_run: 39
+  time: 0.015457391738891602
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 284
+    operator: SIR
+  number: 468
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 284
+    operator: SIR
+  number: 469
+  status: killed
+  tests_run: 38
+  time: 0.0
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 286
+    operator: SIR
+  number: 470
+  status: killed
+  tests_run: 38
+  time: 0.004877328872680664
+- exception_traceback: "Traceback (most recent call last):\n  File \".\\MRTDtest.py\"\
+    , line 445, in test_validate_birth_date_mismatch\n    self.assertEqual(len(result[\"\
+    mismatches\"]), 1)\nAssertionError: 2 != 1\n"
+  killer: test_validate_birth_date_mismatch (MRTDtest.TestMRZValidation)
+  module: *id001
+  mutations:
+  - lineno: 286
+    operator: SIR
+  number: 471
+  status: killed
+  tests_run: 38
+  time: 0.0
+number_of_tests: 46
+targets:
+- MRTD
+tests:
+- name: MRTDtest
+  target: null
+  time: 0.0028820037841796875
+time_stats:
+  create_mutant_module: 0.5778143405914307
+  create_target_ast: 0.0067291259765625
+  mutate_module: 4.02849555015564
+  run_tests_with_mutant: 2.5760414600372314
+total_time: 4.04357647895813
