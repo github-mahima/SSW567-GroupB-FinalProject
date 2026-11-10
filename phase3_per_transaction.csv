@@ -1,0 +1,5 @@
+record_count,encode_no_tests_ms_per_record,encode_with_tests_ms_per_record,decode_no_tests_ms_per_record,decode_with_tests_ms_per_record
+10,0.08159,0.15296,0.00869,0.01986
+100,0.057143,0.131995,0.020985,0.020986
+1000,0.0344105,0.0773818,0.007927,0.008544
+10000,0.033673,0.07456784,0.0237801,0.02935344
