@@ -1,0 +1,10 @@
+# Python-generated files
+__pycache__/
+*.pyc
+
+# Coverage-generated files
+.coverage
+htmlcov/
+
+# Local VS Code settings
+.vscode/
